@@ -1,7 +1,7 @@
 # **Experiments:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
-<div style="text-align: right"> [Home Page](../index.md) </div>
-<div style="text-align: right"> [Artifact Page](Artifact.md) </div>
-<div style="text-align: right"> [Database Page](Database.md) </div>
+<div style="text-align: right"> [Home Page](https://alexfloreslamas.github.io/alexfloreslamas.testing.io/) </div>
+<div style="text-align: right"> [Artifact Page](./Artifact.md) </div>
+<div style="text-align: right"> [Database Page](./Database.md) </div>
 
 
 
