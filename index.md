@@ -4,7 +4,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 # 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 
-**Authors:** [José Alberto Fernández-Zepeda](https://dblp.org/pid/13/7045), [Alejandro Flores-Lamas](https://www.cs.rhul.ac.uk/home/uhac208/), [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), [Joel Antonio Trejo-Sánchez](https://www.cimat.mx/~joel.trejo).
+**Authors:** [José Alberto Fernández-Zepeda](https://dblp.org/pid/13/7045), [Alejandro Flores-Lamas](https://alexfloreslamas.wixsite.com/alexfl), [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), [Joel Antonio Trejo-Sánchez](https://www.cimat.mx/~joel.trejo).
 
 ---
 
