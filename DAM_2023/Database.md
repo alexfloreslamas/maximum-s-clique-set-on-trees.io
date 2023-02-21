@@ -1,8 +1,15 @@
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
 # **Database page:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 
-<div style="text-align: right"> [Home Page](../index.md) </div>
-<div style="text-align: right"> [Artifact Page](Artifact.md) </div>
-<div style="text-align: right"> [Reproducibility of results](Experiments.md) </div>
+[Home Page](../index.md)
+
+[Artifact Page](Artifact.md)
+
+[Reproducibility of results](Experiments.md)
+
 
 **Authors:** [José Alberto Fernández-Zepeda](https://dblp.org/pid/13/7045), [Alejandro Flores-Lamas](https://www.cs.rhul.ac.uk/home/uhac208/), [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), [Joel Antonio Trejo-Sánchez](https://www.cimat.mx/~joel.trejo).
 
