@@ -125,8 +125,10 @@ We implemented both algorithms in Python[^4] 3.10 and the Python package Network
 
 - Free
 
+---
 
-[//]: # Style  for tables
+
+[//]: # Style  for tables and paragraph
 
 <style>
   table {
@@ -138,7 +140,7 @@ td, th {
   padding: 0.5rem;
   text-align: center;
 }
-# paragraph
+
 p {
   text-align: justify;
 }
