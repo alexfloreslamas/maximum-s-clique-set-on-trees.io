@@ -4,9 +4,9 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - Database.md
-  - Artifact.md
-  - Experiments.md
-  - index.md
+  - ./DAM_2023/Database.md
+  - ./DAM_2023/Artifact.md
+  - ./DAM_2023/Experiments.md
+  - ./index.md
 
 theme: jekyll-theme-slate
