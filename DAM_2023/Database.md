@@ -27,7 +27,7 @@ The data set consists of six classes of trees.
 
 - $T_L$ is a linear tree with $10\,000$ vertices. We could think of $T_L$ as an 'opposite' of $T_D$ since $T_L$ is a tall tree and each level has precisely one vertex. The experiments used this graph with values of $s$ from the set $\{10, 100, 1\,000, 10\,000\}$. See Table **2**, Rows **4** to **7**.
 
-- $T_B$ is a full-balanced binary tree with $2^{16}$ leaves. The experiments used this tree with values of $s = \{5,$ $10,$ $15,$ $20, 25,$ $30\}$. See Table **2**, Rows **8** to **13**.
+- $T_B$ is a full-balanced binary tree with $2^{16}$ leaves. The experiments used this tree with values of $s = \{5, 10, 15, 20, 25, 30\}$. See Table **2**, Rows **8** to **13**.
 
 - The $T_{\eta\mathrm{e}{6}}$ trees, for $\eta \in \{0.3, 0.5, 0.75, 1\}$ and $\mathrm{e}{6} = 10^6$, have $0.3\times 10^6$, $0.5 \times 10^6$, $0.75 \times 10^6$, and $1\times 10^6 $ vertices, respectively. We built these trees with the instruction 'nx.random\_tree(...)' from [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.trees.random_tree.html#networkx.generators.trees.random_tree). We used the following values of $s = \{10, 100, 500\}$ for each tree. See Table **2**, Rows **15** to **26**.
 
