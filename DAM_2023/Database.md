@@ -138,4 +138,7 @@ td, th {
   padding: 0.5rem;
   text-align: center;
 }
+p {
+  text-align: justify;
+}
 </style>
