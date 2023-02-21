@@ -1,6 +1,8 @@
 # **Artifact page:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 [Home Page](../index.md)
+
 [Database Page](Database.md)
+
 [Reproducibility of results](Experiments.md)
 
 
