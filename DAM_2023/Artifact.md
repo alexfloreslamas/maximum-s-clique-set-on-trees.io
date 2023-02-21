@@ -5,8 +5,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 # **Artifact page:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 [Home Page](../index.md)
 
-[Database Page](Database.md)
-{: .text-right}
+[Database Page](Database.md){: .text-right}
 
 [Reproducibility of results](Experiments.md)
 
