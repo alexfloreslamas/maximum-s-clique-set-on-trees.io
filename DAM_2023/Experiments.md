@@ -66,3 +66,21 @@ Follow these steps to evaluate the cases of studies mentioned in **Section 6, Im
 ---
 
 [^1]:  Himsolt, M., 1997. GML: A portable graph file format. Technical report, Universitat Passau.
+
+[//]: # Style  for tables and paragraph
+
+<style>
+  table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+</style>
