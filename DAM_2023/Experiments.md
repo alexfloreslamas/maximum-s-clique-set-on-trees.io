@@ -1,11 +1,14 @@
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 # **Experiments:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
-<div style="text-align: right"> [Home Page](https://alexfloreslamas.github.io/alexfloreslamas.testing.io/) </div>
-<div style="text-align: right"> [Artifact Page](./Artifact.md) </div>
-<div style="text-align: right"> [Database Page](./Database.md) </div>
+
+[Home Page](../index.md)
+
+[Artifact Page](./Artifact.md)
+
+[Database Page](./Database.md)
 
 
 
