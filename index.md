@@ -24,3 +24,21 @@ Finding cliques in an undirected graph $G = (V_G, E_G)$ is a fundamental problem
 
 ---
 
+[//]: # Style  for tables and paragraph
+
+<style>
+  table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+</style>
+
