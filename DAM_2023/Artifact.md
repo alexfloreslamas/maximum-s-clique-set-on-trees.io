@@ -10,7 +10,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 [Reproducibility of results](Experiments.md)
 
 
-**Authors:** [José Alberto Fernández-Zepeda](https://dblp.org/pid/13/7045), [Alejandro Flores-Lamas]([https://www.cs.rhul.ac.uk/home/uhac208/](https://alexfloreslamas.wixsite.com/alexfl)), [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), [Joel Antonio Trejo-Sánchez](https://www.cimat.mx/~joel.trejo).
+**Authors:** [José Alberto Fernández-Zepeda](https://dblp.org/pid/13/7045), [Alejandro Flores-Lamas](https://alexfloreslamas.wixsite.com/alexfl), [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), [Joel Antonio Trejo-Sánchez](https://www.cimat.mx/~joel.trejo).
 
 ---
 
