@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Database</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="database-page-a-dynamic-programming-algorithm-for-a-maximum-s-clique-set-on-trees"><strong>Database page:</strong> ‘A dynamic programming algorithm for a maximum <span class="math inline">\(s\)</span>-clique set on trees’</h1>
+<div style="text-align: right">
+<a href="../index.html">Home Page</a>
+</div>
+<div style="text-align: right">
+<a href="Artifact.html">Artifact Page</a>
+</div>
+<div style="text-align: right">
+<a href="Experiments.html">Reproducibility of results</a>
+</div>
+<p><strong>Authors:</strong> <a href="https://dblp.org/pid/13/7045">José Alberto Fernández-Zepeda</a>, <a href="https://www.cs.rhul.ac.uk/home/uhac208/">Alejandro Flores-Lamas</a>, <a href="https://www.cs.rhul.ac.uk/home/uxac009/">Matthew Hague</a>, <a href="https://www.cimat.mx/~joel.trejo">Joel Antonio Trejo-Sánchez</a>.</p>
+<hr />
+<h2 id="description">Description</h2>
+<p>This webpage contains the dataset for the experiments in the article “A dynamic programming algorithm for a maximum <span class="math inline">\(s\)</span>-clique set on trees”. This paper is currently under consideration for acceptance to <a href="https://www.sciencedirect.com/journal/discrete-applied-mathematics">Discrete Applied Mathematics</a>.</p>
+<hr />
+<h2 id="data-documentation">Data documentation</h2>
+<p>The data set consists of six classes of trees.</p>
+<ul>
+<li><p>The <span class="math inline">\({\cal T}_{22\_16}\)</span> subset from <a href="https://users.cecs.anu.edu.au/~bdm/">Professor Brendan McKay</a>. We chose the <a href="https://users.cecs.anu.edu.au/~bdm/data/trees.html">‘tree22.16.txt’</a> dataset containing <span class="math inline">\(12\,761\)</span> trees; each graph has <span class="math inline">\(22\)</span> vertices and a diameter of <span class="math inline">\(16\)</span>. The experiments used values of <span class="math inline">\(s \in \{8, 9, \ldots, 16\}\)</span>. The cumulative execution time of such a set under each algorithm appears in Table <strong>2</strong>, Row <strong>1</strong>.</p></li>
+<li><p><span class="math inline">\({\cal T}_{Ph}\)</span> is a subset of phylogenetic trees chosen from the <a href="http://phylomedb.org/">PhylomeDB</a> catalogue. The chosen source file <a href="http://phylomedb.org/download">‘phylomones/phylomone_0003/ best_trees.txt.gz’</a> contains <span class="math inline">\(5\,722\)</span> phylogenetic trees (S. cerevisiae phylome made from 60 completely sequenced fungal specie), the largest tree having <span class="math inline">\(297\)</span> vertices, and diameters ranging from <span class="math inline">\(2\)</span> to <span class="math inline">\(64\)</span>. The experiments used this set with values of <span class="math inline">\(s\)</span> from the set <span class="math inline">\(\{2, 3, 4, 7, 8, 13, 16, 25,\)</span> <span class="math inline">\(32, 49, 64\}\)</span>. The cumulative execution time of such a set under each algorithm appears in Table <strong>2</strong>, Row <strong>14</strong>.</p></li>
+<li><p><span class="math inline">\(T_D\)</span> is <a href="https://en.wikipedia.org/wiki/Doubly_logarithmic_tree">a doubly logarithmic tree</a> with height 5 (<span class="math inline">\(|V_{T_D}| = 119\,041\)</span>). The experiments used this graph with values of <span class="math inline">\(s = \{4, 5\}\)</span>. See Table <strong>2</strong>, Rows <strong>2</strong> and <strong>3</strong>.</p></li>
+<li><p><span class="math inline">\(T_L\)</span> is a linear tree with <span class="math inline">\(10\,000\)</span> vertices. We could think of <span class="math inline">\(T_L\)</span> as an ‘opposite’ of <span class="math inline">\(T_D\)</span> since <span class="math inline">\(T_L\)</span> is a tall tree and each level has precisely one vertex. The experiments used this graph with values of <span class="math inline">\(s\)</span> from the set <span class="math inline">\(\{10, 100, 1\,000, 10\,000\}\)</span>. See Table <strong>2</strong>, Rows <strong>4</strong> to <strong>7</strong>.</p></li>
+<li><p><span class="math inline">\(T_B\)</span> is a full-balanced binary tree with <span class="math inline">\(2^{16}\)</span> leaves. The experiments used this tree with values of <span class="math inline">\(s = \{5,\)</span> <span class="math inline">\(10,\)</span> <span class="math inline">\(15,\)</span> <span class="math inline">\(20,\)</span> <span class="math inline">\(25,\)</span> <span class="math inline">\(30\}\)</span>. See Table <strong>2</strong>, Rows <strong>8</strong> to <strong>13</strong>.</p></li>
+<li><p>The <span class="math inline">\(T_{\eta\mathrm{e}{6}}\)</span> trees, for <span class="math inline">\(\eta \in \{0.3, 0.5, 0.75, 1\}\)</span> and <span class="math inline">\(\mathrm{e}{6} = 10^6\)</span>, have <span class="math inline">\(0.3\times 10^6\)</span>, <span class="math inline">\(0.5 \times 10^6\)</span>, <span class="math inline">\(0.75 \times 10^6\)</span>, and $1^6 $ vertices, respectively. We built these trees with the instruction ‘nx.random_tree(…)’ from <a href="https://networkx.org/documentation/stable/reference/generated/networkx.generators.trees.random_tree.html#networkx.generators.trees.random_tree">NetworkX</a>. We used the following values of <span class="math inline">\(s = \{10, 100, 500\}\)</span> for each tree. See Table <strong>2</strong>, Rows <strong>15</strong> to <strong>26</strong>.</p></li>
+</ul>
+<p><br><br> <strong>Table 1.</strong> Source files (in GML format) for the cases of studies; files are zipped.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Case of study</th>
+<th>File</th>
+<th>Case of study</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\({\cal T}_{22\_16}\)</span></td>
+<td><a href="./DB/Prof_Brendan/T_22_16.zip">T_22_16.zip</a></td>
+<td><span class="math inline">\(T_L\)</span></td>
+<td><a href="./DB/T_L.zip">T_L.zip</a></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\({\cal T}_{Ph}\)</span></td>
+<td><a href="./DB/Phylogenetic_trees/T_Ph.zip">T_Ph.zip</a></td>
+<td><span class="math inline">\(T_B\)</span></td>
+<td><a href="./DB/T_B.zip">T_B.zip</a></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(T_D\)</span></td>
+<td><a href="./DB/T_D.zip">T_D.zip</a></td>
+<td><span class="math inline">\(T_{\eta\mathrm{e}{6}}\)</span></td>
+<td><a href="./DB/T_eta.zip">T_eta.zip</a></td>
+</tr>
+<tr class="even">
+<td><em>All files</em></td>
+<td><a href="./DB/DB.zip">DB.zip</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="evaluation-metrics">Evaluation metrics</h2>
+<p>We measured the wall-clock running time of both Schäfer’s<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and Max-D<em>s</em>T<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> implementations. Our focus was on the time taken to compute the size of the M<em>s</em>C<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> for each input graph, exluding the time for operations such as reading/writing files, initialising data structures, and identifying the vertices in M<em>s</em>C. Since both algorithms are correct, we did not evaluate the size of the M<em>s</em>C.</p>
+<hr />
+<h2 id="computing-environment">Computing environment</h2>
+<p>We implemented both algorithms in Python<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> 3.10 and the Python package NetworkX<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> version 2.8. The input graphs are in GML<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. The experiments ran on a 2012 MacBook Pro with 2.3 GHz Quad-Core Intel Core i7 processor, running a 64 bit macOS Catalina version 10.15.7 with a total memory of 8 GB (1600 MHz DDR3). This computer executed each algorithm implementation on each input graph sequentially without any resource allocation.</p>
+<hr />
+<h2 id="experimental-results">Experimental results</h2>
+<p><strong>Table 2.</strong> Wall-clock running time of Schäfer’s implementation and Max-D<em>s</em>T on the six cases of studies. We denote ‘timeouts’ and ‘not applicable’ by ‘—’ and ‘n/a’, respectively.</p>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 23%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th></th>
+<th>Running time</th>
+<th>in seconds</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Row</em></td>
+<td><em>Graph</em></td>
+<td><span class="math inline">\(t_{\text{Sch{\&quot;a}fer}}\)</span></td>
+<td><span class="math inline">\(t_{\text{Max-D}k\text{T}}\)</span></td>
+<td><span class="math inline">\(\frac{t_{\text{Sch{\&quot;a}fer}}}{t_{\text{Max-D}k\text{T}}}\)</span></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td><span class="math inline">\({\cal T}_{22\_16}\)</span></td>
+<td>132.4492</td>
+<td>60.8545</td>
+<td>2.1</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td><span class="math inline">\(T_D,\; k = 4\)</span></td>
+<td>109.9832</td>
+<td>1.8577</td>
+<td>59.2</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td><span class="math inline">\(T_D,\; k = 5\)</span></td>
+<td>116.5945</td>
+<td>1.5734</td>
+<td>74.1</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td><span class="math inline">\(T_L, \; k = 10\)</span></td>
+<td>1.5289</td>
+<td>0.5584</td>
+<td>2.7</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td><span class="math inline">\(T_L, \; k = 100\)</span></td>
+<td>12.6688</td>
+<td>4.8969</td>
+<td>2.5</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td><span class="math inline">\(T_L, \; k = 1\,000\)</span></td>
+<td>602.9626</td>
+<td>45.2492</td>
+<td>13.3</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td><span class="math inline">\(T_L, \; k = 10\,000\)</span></td>
+<td>19,859.2017</td>
+<td>241.7339</td>
+<td>82.1</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td><span class="math inline">\(T_B, \; k = 5\)</span></td>
+<td>117.9299</td>
+<td>2.0445</td>
+<td>57.6</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td><span class="math inline">\(T_B, \; k = 10\)</span></td>
+<td>121.7708</td>
+<td>1.9870</td>
+<td>61.2</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td><span class="math inline">\(T_B, \; k = 15\)</span></td>
+<td>125.8261</td>
+<td>1.9811</td>
+<td>63.5</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td><span class="math inline">\(T_B, \; k = 20\)</span></td>
+<td>125.4565</td>
+<td>1.9592</td>
+<td>64.0</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td><span class="math inline">\(T_B, \; k = 25\)</span></td>
+<td>126.7537</td>
+<td>1.9809</td>
+<td>63.9</td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td><span class="math inline">\(T_B, \; k = 30\)</span></td>
+<td>148.4265</td>
+<td>1.9831</td>
+<td>74.8</td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td><span class="math inline">\({\cal T}_{Ph}\)</span></td>
+<td>719.4773</td>
+<td>185.4435</td>
+<td>3.8</td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td><span class="math inline">\(T_{0.3\mathrm{e}{6}},\; k = 10\)</span></td>
+<td>1,022.6843</td>
+<td>9.4978</td>
+<td>107.7</td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td><span class="math inline">\(T_{0.3\mathrm{e}{6}},\; k = 100\)</span></td>
+<td>1,439.42</td>
+<td>17.3046</td>
+<td>83.1</td>
+</tr>
+<tr class="even">
+<td>17</td>
+<td><span class="math inline">\(T_{0.3\mathrm{e}{6}},\; k = 500\)</span></td>
+<td>5,989.8246</td>
+<td>74.7689</td>
+<td>80.1</td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td><span class="math inline">\(T_{0.5\mathrm{e}{6}},\; k = 10\)</span></td>
+<td>2,945.4381</td>
+<td>15.6059</td>
+<td>188.7</td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td><span class="math inline">\(T_{0.5\mathrm{e}{6}},\; k = 100\)</span></td>
+<td>3,654.6010</td>
+<td>44.1117</td>
+<td>82.8</td>
+</tr>
+<tr class="odd">
+<td>20</td>
+<td><span class="math inline">\(T_{0.5\mathrm{e}{6}},\; k = 500\)</span></td>
+<td>—</td>
+<td>2,661.9666</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td><span class="math inline">\(T_{0.75\mathrm{e}{6}},\; k = 10\)</span></td>
+<td>6,436.4398</td>
+<td>22.7611</td>
+<td>282.7</td>
+</tr>
+<tr class="odd">
+<td>22</td>
+<td><span class="math inline">\(T_{0.75\mathrm{e}{6}},\; k = 100\)</span></td>
+<td>7,807.3684</td>
+<td>94.7391</td>
+<td>82.4</td>
+</tr>
+<tr class="even">
+<td>23</td>
+<td><span class="math inline">\(T_{0.75\mathrm{e}{6}},\; k = 500\)</span></td>
+<td>—</td>
+<td>5,657.6981</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>24</td>
+<td><span class="math inline">\(T_{1\mathrm{e}{6}},\; k = 10\)</span></td>
+<td>11,529.7250</td>
+<td>31.8786</td>
+<td>361.6</td>
+</tr>
+<tr class="even">
+<td>25</td>
+<td><span class="math inline">\(T_{1\mathrm{e}{6}},\; k = 100\)</span></td>
+<td>14,167.638</td>
+<td>198.9311</td>
+<td>71.2</td>
+</tr>
+<tr class="odd">
+<td>26</td>
+<td><span class="math inline">\(T_{1\mathrm{e}{6}},\; k = 500\)</span></td>
+<td>—</td>
+<td>11,422.2738</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<p><br> <br></p>
+<p><strong>Table 3.</strong> Additional information and raw data.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Case of study</th>
+<th>File</th>
+<th>Case of study</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\({\cal T}_{22\_16}\)</span></td>
+<td><a href="./Results/T_22_16.tsv">T_22_16.tsv</a></td>
+<td><span class="math inline">\(T_L\)</span></td>
+<td><a href="./Results/T_L.tsv">T_L.tsv</a></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\({\cal T}_{Ph}\)</span></td>
+<td><a href="./Results/T_Ph.tsv">T_Ph.tsv</a></td>
+<td><span class="math inline">\(T_B\)</span></td>
+<td><a href="./Results/T_B.tsv">T_L.tsv</a></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(T_D\)</span></td>
+<td><a href="./Results/T_D.tsv">T_D.tsv</a></td>
+<td><span class="math inline">\(T_{\eta\mathrm{e}{6}}\)</span></td>
+<td><a href="./Results/Random.tsv">Random.tsv</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Note:</em> In the <code>.tsv files</code>, the column labelled as ‘Diameter’ represents the value for the integer <span class="math inline">\(s\)</span>.</p>
+<hr />
+<h2 id="license">License</h2>
+<ul>
+<li>Free</li>
+</ul>
+<style>
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: center;
+}
+</style>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Schäfer, A.: Exact algorithms for s-club finding and related problems. Ph.D. thesis, Friedrich-Schiller-University Jena (2009).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Our dynamic programming algorithm for a maximum distance <span class="math inline">\(s\)</span>-clique set on trees.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>A maximum distance <span class="math inline">\(s\)</span>-clique on trees.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Van Rossum, G., Drake, F.L.: Python 3 Reference Manual. CreateSpace, Scotts Valley, CA (2009)<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Hagberg, A., Swart, P., S Chult, D.: Exploring network structure, dynamics, and function using networkx. Tech. rep., Los Alamos National Lab.(LANL), Los Alamos, NM (United States) (2008)<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Himsolt, M., 1997. GML: A portable graph file format. Technical report, Universitat Passau.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
