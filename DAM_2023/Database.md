@@ -129,15 +129,6 @@ We implemented both algorithms in Python[^4] 3.10 and the Python package Network
 [//]: # Style  for tables
 
 <style>
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: center;
-}
 p {
   text-align: justify;
 }
