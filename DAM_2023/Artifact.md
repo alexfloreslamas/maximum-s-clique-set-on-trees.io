@@ -1,3 +1,7 @@
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
 # **Artifact page:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 [Home Page](../index.md)
 
