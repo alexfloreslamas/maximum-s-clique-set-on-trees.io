@@ -1,3 +1,7 @@
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # **Experiments:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 <div style="text-align: right"> [Home Page](https://alexfloreslamas.github.io/alexfloreslamas.testing.io/) </div>
 <div style="text-align: right"> [Artifact Page](./Artifact.md) </div>
