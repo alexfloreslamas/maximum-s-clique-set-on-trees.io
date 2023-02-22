@@ -41,7 +41,7 @@ The data set consists of:
 
 | Case of study             | File                                          | Case of study             | File                        |
 | ------------------------- | --------------------------------------------- | ------------------------- | --------------------------- |
-| ${\cal T}_{22\_16}$       | [T_22_16.zip](./DB/Prof_Brendan/T_22_16.zip)  | $T_L$                     | [T_L.zip](./DB/T_L.zip)     |
+| ${\cal T}_{22-16}$       | [T_22_16.zip](./DB/Prof_Brendan/T_22_16.zip)  | $T_L$                     | [T_L.zip](./DB/T_L.zip)     |
 | ${\cal T}_{Ph}$           | [T_Ph.zip](./DB/Phylogenetic_trees/T_Ph.zip)  | $T_B$                     | [T_B.zip](./DB/T_B.zip)     |
 | $T_D$                     | [T_D.zip](./DB/T_D.zip)                       | $T_{\eta\mathrm{e}{6}}$   | [T_eta.zip](./DB/T_eta.zip) |
 | *All files*               | [DB.zip](./DB/DB.zip)                         |                           |                             |
@@ -68,7 +68,7 @@ We implemented both algorithms in Python[^4] 3.10 and the Python package Network
 |           |                                       | Running time                  | in seconds                    |                                                               |
 | --------- | ------------------------------------- | ----------------------------- | ----------------------------- | ------------------------------------------------------------- |
 | *Row*     | *Graph*                               | $t_{\text{Schäfer}}$          | $t_{\text{Max-D}k\text{T}}$   | $\frac{t_{\text{Schäfer}}}{t_{\text{Max-D}k\text{T}}}$        |
-| 1         | ${\cal T}_{22\_16}$                   | $132.4492$                    | $60.8545$                     | $2.1$                                                         |
+| 1         | ${\cal T}_{22-16}$                   | $132.4492$                    | $60.8545$                     | $2.1$                                                         |
 | 2         | $T_D,\; k = 4$                        | $109.9832$                    | $1.8577$                      | $59.2$                                                        |
 | 3         | $T_D,\; k = 5$                        | $116.5945$                    | $1.5734$                      | $74.1$                                                        |
 | 4         | $T_L, \; k = 10$                      | $1.5289$                      | $0.5584$                      | $2.7$                                                         |
@@ -103,7 +103,7 @@ We implemented both algorithms in Python[^4] 3.10 and the Python package Network
 
 |Case of study        | File                                  | Case of study             | File                                  |
 | ------------------- | ------------------------------------- | ------------------------- | ------------------------------------- |
-| ${\cal T}_{22\_16}$ | [T_22_16.tsv](./Results/T_22_16.tsv)  | $T_L$                     | [T_L.tsv](./Results/T_L.tsv)          |
+| ${\cal T}_{22-16}$ | [T_22_16.tsv](./Results/T_22_16.tsv)  | $T_L$                     | [T_L.tsv](./Results/T_L.tsv)          |
 | ${\cal T}_{Ph}$     | [T_Ph.tsv](./Results/T_Ph.tsv)        | $T_B$                     | [T_L.tsv](./Results/T_B.tsv)          |
 | $T_D$               | [T_D.tsv](./Results/T_D.tsv)          | $T_{\eta\mathrm{e}{6}}$   | [Random.tsv](./Results/Random.tsv)    |
 
