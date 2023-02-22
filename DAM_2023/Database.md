@@ -118,11 +118,6 @@ We implemented both algorithms in Python[^4] 3.10 and the Python package Network
 [^5]: Hagberg, A., Swart, P., S Chult, D.: Exploring network structure, dynamics, and function using networkx. Tech. rep., Los Alamos National Lab.(LANL), Los Alamos, NM (United States) (2008)
 [^6]: Himsolt, M., 1997. GML: A portable graph file format. Technical report, Universitat Passau.
 
-
-## License
-
-- Free
-
 ---
 
 
