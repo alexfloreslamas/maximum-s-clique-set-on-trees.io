@@ -101,13 +101,6 @@ In the above example, we call the `main.py` file with the parameters of `DAM_202
 - Instructions for repeating the experiments are provided on the [experimental web page](Experiments.md).
 
 
-
-
-## License
-
-- Free
-
-
 ## Script files and folder structure
 
 ```
@@ -177,6 +170,14 @@ In the above example, we call the `main.py` file with the parameters of `DAM_202
             |-- output_handler.py
             |-- utils.py
 ```
+
+---
+
+## License
+
+- Free
+
+---
 
 
 [^1]: Schäfer, A.: Exact algorithms for *s*-club finding and related problems. Ph.D. thesis, Friedrich-Schiller-University Jena (2009).
