@@ -21,7 +21,7 @@ Experiments in the article "A dynamic programming algorithm for a maximum $s$-cl
 
 ## Assets
 
-**Artifact** (The version we use for the experiments for the paper submitted to [Discrete Applied Mathematics](https://www.sciencedirect.com/journal/discrete-applied-mathematics))
+**Artifact** The tool we used for the experiments for the paper submitted to [Discrete Applied Mathematics](https://www.sciencedirect.com/journal/discrete-applied-mathematics))
 
 - [Download](./DAM_2023_Tool/DAM_2023_Tool.zip)
 
