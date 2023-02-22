@@ -53,15 +53,15 @@ Experiments in the article "A dynamic programming algorithm for a maximum $s$-cl
 
 See [Script file and folder structure](#script-file-and-folder-structure) for the entire contents of the artifact.
 
-*Main file*
+*Main file:*
 
 - `/DAM_2023_Tool/main.py`
 
-*Schäfer's implementation*
+*Schäfer's implementation:*
 
 - `/DAM_2023_Tool/src/Algorithms/DAM_2023/Schafer`
 
-*Max-DkT implementation*
+*Max-DsT implementation:*
 
 - `/DAM_2023_Tool/src/Algorithms/DAM_2023/Max_DsT`
 
@@ -73,16 +73,16 @@ See [Script file and folder structure](#script-file-and-folder-structure) for th
 *Configuration file:*
 
  * `/DAM_2023_Tool/Settings`
-    * `DAM_2023_small_example.yaml` <-- Configuration file to execute both Schäfer'a and Max-D*s*T on three 'small' trees stored the path: `/DAM_2023_Tool/Input/Small`; result files will be stored in `/DAM_2023_Tool/Output/Small`
+    * `DAM_2023_small_example.yaml` <-- Configuration file to execute Schäfer's and Max-D*s*T on three 'small-size' trees stored the path: `/DAM_2023_Tool/Input/Small`; result files will be stored in `/DAM_2023_Tool/Output/Small`.
 
-    * `DAM_2023_medium_example.yaml` <-- Configuration file to execute both Schäfer'a and Max-D*s*T on one 'medium' tree stored the path: `/DAM_2023_Tool/Input/Medium`; result files will be stored in `/DAM_2023_Tool/Output/Medium`
+    * `DAM_2023_medium_example.yaml` <-- Configuration file to execute both Schäfer's and Max-D*s*T on one 'medium-size' tree stored the path: `/DAM_2023_Tool/Input/Medium`; result files will be stored in `/DAM_2023_Tool/Output/Medium`.
 
 
 ### Other instructions and example of execution
 
 After unpacking the artifact, DAM_2023_Tool can be run as follows:
 
-- Open a command-line interpreter and navigate to the 'DAM_2023_Tool' folder
+- Open a command-line interpreter and navigate to the 'DAM_2023_Tool' folder.
 - Type the following command: 
 
 ```bash
@@ -92,10 +92,10 @@ $ python main.py Settings/DAM_2023_small_example.yaml
 In the above example, we call the `main.py` file with the parameters of `DAM_2023_small_example.yaml`. In particular this example proceeds as follows:
 
 
-1. DAM_2023_Tool reads the GML files in '/DAM_2023_Tool/Input/Small'
+1. DAM_2023_Tool reads the GML files in `/DAM_2023_Tool/Input/Small`.
 2. DAM_2023_Tool transforms each file into a tree with the attributes required by the algorithms.
-3. DAM_2023_Tool executes Max-D*s*T and Schäfer's algorithm sequentially with the parameters specified in the YAML file.
-4. DAM_2023_Tool saves in TSV files (DAM_2023_Tool/Output/Small) the outcome of the execution of the algorithms.
+3. DAM_2023_Tool executes Max-D*s*T and Schäfer's algorithms sequentially with the parameters specified in the YAML file.
+4. DAM_2023_Tool saves in TSV files (`DAM_2023_Tool/Output/Small`) the outcome of the execution of the algorithms.
 
 ### Experimental Installation
 
@@ -183,20 +183,20 @@ In the above example, we call the `main.py` file with the parameters of `DAM_202
 [^1]: Schäfer, A.: Exact algorithms for *s*-club finding and related problems. Ph.D. thesis, Friedrich-Schiller-University Jena (2009).
 [^2]: Our dynamic programming algorithm that finds a maximum *s*-clique on trees.
 
-[//]: # Style  for tables and paragraph
+[//]: # Style for tables and paragraph
 
 <style>
   table {
-  border-collapse: collapse;
-}
+    border-collapse: collapse;
+  }
 
-td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: center;
-}
+  td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: center;
+  }
 
-p {
-  text-align: justify;
-}
+  p {
+    text-align: justify;
+  }
 </style>
