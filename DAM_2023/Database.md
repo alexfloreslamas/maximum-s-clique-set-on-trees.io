@@ -37,7 +37,7 @@ The data set consists of:
 - The $T_{\eta\mathrm{e}{6}}$ trees, for $\eta \in$ {{"{$0.3, 0.5, 0.75, 1$"}}} and $\mathrm{e}{6} = 10^6$, have $0.3\times 10^6$, $0.5 \times 10^6$, $0.75 \times 10^6$, and $1\times 10^6 $ vertices, respectively. We built these trees with the instruction 'nx.random\_tree(...)' from [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.trees.random_tree.html#networkx.generators.trees.random_tree). We used the following values of $s =$ {{"{$10, 100, 500$"}}} for each tree. See Table **2**, Rows **15** to **26**.
 
 <br><br>
-**Table 1.** Source files (in GML format) for the cases of studies; files are zipped.
+**Table 1.** Dataset's source files (in GML format); files are zipped.
 
 | Case of study             | File                                          | Case of study             | File                        |
 | ------------------------- | --------------------------------------------- | ------------------------- | --------------------------- |
