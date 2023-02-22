@@ -50,7 +50,7 @@ Experiments in the article "A dynamic programming algorithm for a maximum $s$-cl
 
 #### Selected contents
 
-See [Script file and folder structure](#script-file-and-folder-structure) for the entire contents of the artifact.
+See [Script files and folder structure](#script-files-and-folder-structure) for the entire contents of the artifact.
 
 *Main file:*
 
@@ -108,7 +108,7 @@ In the above example, we call the `main.py` file with the parameters of `DAM_202
 - Free
 
 
-## Script file and folder structure
+## Script files and folder structure
 
 ```
 |-- DAM_2023_Tool
