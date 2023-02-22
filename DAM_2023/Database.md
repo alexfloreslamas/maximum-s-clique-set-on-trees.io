@@ -4,11 +4,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 # **Database page:** 'A dynamic programming algorithm for a maximum $s$-clique set on trees'
 
-[Home Page](../index.md)
-
-[Artifact Page](Artifact.md)
-
-[Reproducibility of results](Experiments.md)
+- [Home Page](../index.md)
+- [Artifact Page](Artifact.md)
+- [Reproducibility of results](Experiments.md)
 
 
 **Authors:** [José Alberto Fernández-Zepeda](https://dblp.org/pid/13/7045), [Alejandro Flores-Lamas](https://alexfloreslamas.wixsite.com/alexfl), [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), [Joel Antonio Trejo-Sánchez](https://www.cimat.mx/~joel.trejo).
@@ -23,20 +21,20 @@ This webpage contains the dataset for the experiments in the article "A dynamic 
 
 ## Data documentation
 
-The data set consists of six classes of trees.
+The data set consists of:
 
 
-- The ${\cal T}_{22\_16}$ subset from [Professor Brendan McKay](https://users.cecs.anu.edu.au/~bdm/). We chose the ['tree22.16.txt'](https://users.cecs.anu.edu.au/~bdm/data/trees.html) dataset containing $12\,761$ trees; each graph has $22$ vertices and a diameter of $16$. The experiments used values of $s \in \{8, 9, \ldots, 16\}$. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **1**.
+- The ${\cal T}_{22\_16}$ subset from [Professor Brendan McKay](https://users.cecs.anu.edu.au/~bdm/). We chose the ['tree22.16.txt'](https://users.cecs.anu.edu.au/~bdm/data/trees.html) dataset containing $12\,761$ trees; each graph has $22$ vertices and a diameter of $16$. The experiments used values of $s \in \textbraceleft 8, 9, \ldots, 16 \textbraright$. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **1**.
 
-- ${\cal T}_{Ph}$ is a subset of phylogenetic trees chosen from the [PhylomeDB](http://phylomedb.org/) catalogue. The chosen source file ['phylomones/phylomone_0003/ best\_trees.txt.gz'](http://phylomedb.org/download) contains $5\,722$ phylogenetic trees (S. cerevisiae phylome made from 60 completely sequenced fungal specie), the largest tree having $297$ vertices, and diameters ranging from $2$ to $64$. The experiments used this set with values of $s$ from the set $\{2, 3, 4, 7, 8, 13, 16, 25, 32, 49, 64\}$. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **14**.
+- ${\cal T}_{Ph}$ is a subset of phylogenetic trees chosen from the [PhylomeDB](http://phylomedb.org/) catalogue. The chosen source file ['phylomones/phylomone_0003/ best\_trees.txt.gz'](http://phylomedb.org/download) contains $5\,722$ phylogenetic trees (S. cerevisiae phylome made from 60 completely sequenced fungal specie), the largest tree having $297$ vertices, and diameters ranging from $2$ to $64$. The experiments used this set with values of $s$ from the set $\textbraceleft 2, 3, 4, 7, 8, 13, 16, 25, 32, 49, 64 \textbraright$. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **14**.
 
-- $T_D$ is [a doubly logarithmic tree](https://en.wikipedia.org/wiki/Doubly_logarithmic_tree) with height 5 ($\vert V_{T_D}\vert = 119\,041$). The experiments used this graph with values of $s = \{4, 5\}$. See Table **2**, Rows **2** and **3**.
+- $T_D$ is [a doubly logarithmic tree](https://en.wikipedia.org/wiki/Doubly_logarithmic_tree) with height 5 ($\vert V_{T_D}\vert = 119\,041$). The experiments used this graph with values of $s = \textbraceleft 4, 5 \textbraright$. See Table **2**, Rows **2** and **3**.
 
-- $T_L$ is a linear tree with $10\,000$ vertices. We could think of $T_L$ as an 'opposite' of $T_D$ since $T_L$ is a tall tree and each level has precisely one vertex. The experiments used this graph with values of $s$ from the set $\{10, 100, 1\,000, 10\,000\}$. See Table **2**, Rows **4** to **7**.
+- $T_L$ is a linear tree with $10\,000$ vertices. We could think of $T_L$ as an 'opposite' of $T_D$ since $T_L$ is a tall tree and each level has precisely one vertex. The experiments used this graph with values of $s$ from the set $\textbraceleft 10, 100, 1\,000, 10\,000 \textbraright$. See Table **2**, Rows **4** to **7**.
 
-- $T_B$ is a full-balanced binary tree with $2^{16}$ leaves. The experiments used this tree with values of $s = \{5, 10, 15, 20, 25, 30\}$. See Table **2**, Rows **8** to **13**.
+- $T_B$ is a full-balanced binary tree with $2^{16}$ leaves. The experiments used this tree with values of $s = \textbraceleft 5, 10, 15, 20, 25, 30 \textbraright$. See Table **2**, Rows **8** to **13**.
 
-- The $T_{\eta\mathrm{e}{6}}$ trees, for $\eta \in \{0.3, 0.5, 0.75, 1\}$ and $\mathrm{e}{6} = 10^6$, have $0.3\times 10^6$, $0.5 \times 10^6$, $0.75 \times 10^6$, and $1\times 10^6 $ vertices, respectively. We built these trees with the instruction 'nx.random\_tree(...)' from [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.trees.random_tree.html#networkx.generators.trees.random_tree). We used the following values of $s = \{10, 100, 500\}$ for each tree. See Table **2**, Rows **15** to **26**.
+- The $T_{\eta\mathrm{e}{6}}$ trees, for $\eta \in \textbraceleft 0.3, 0.5, 0.75, 1 \textbraright$ and $\mathrm{e}{6} = 10^6$, have $0.3\times 10^6$, $0.5 \times 10^6$, $0.75 \times 10^6$, and $1\times 10^6 $ vertices, respectively. We built these trees with the instruction 'nx.random\_tree(...)' from [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.trees.random_tree.html#networkx.generators.trees.random_tree). We used the following values of $s = \textbraceleft 10, 100, 500 \textbraright$ for each tree. See Table **2**, Rows **15** to **26**.
 
 <br><br>
 **Table 1.** Source files (in GML format) for the cases of studies; files are zipped.
@@ -132,16 +130,16 @@ We implemented both algorithms in Python[^4] 3.10 and the Python package Network
 
 <style>
   table {
-  border-collapse: collapse;
-}
+    border-collapse: collapse;
+  }
 
-td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: center;
-}
+  td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: center;
+  }
 
-p {
-  text-align: justify;
-}
+  p {
+    text-align: justify;
+  }
 </style>
