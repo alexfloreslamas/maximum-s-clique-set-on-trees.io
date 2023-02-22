@@ -24,7 +24,7 @@ This webpage contains the dataset for the experiments in the article "A dynamic 
 The data set consists of:
 
 
-- The ${\cal T}_{22{\_}16}$ subset from [Professor Brendan McKay](https://users.cecs.anu.edu.au/~bdm/). We chose the ['tree22.16.txt'](https://users.cecs.anu.edu.au/~bdm/data/trees.html) dataset containing $12\,761$ trees; each graph has $22$ vertices and a diameter of $16$. The experiments used values of $s \in$ {{"{$8, 9, \ldots, 16$"}}}. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **1**.
+- The ${\cal T}_{22{\\_}16}$ subset from [Professor Brendan McKay](https://users.cecs.anu.edu.au/~bdm/). We chose the ['tree22.16.txt'](https://users.cecs.anu.edu.au/~bdm/data/trees.html) dataset containing $12\,761$ trees; each graph has $22$ vertices and a diameter of $16$. The experiments used values of $s \in$ {{"{$8, 9, \ldots, 16$"}}}. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **1**.
 
 - ${\cal T}_{Ph}$ is a subset of phylogenetic trees chosen from the [PhylomeDB](http://phylomedb.org/) catalogue. The chosen source file ['phylomones/phylomone_0003/ best\_trees.txt.gz'](http://phylomedb.org/download) contains $5\,722$ phylogenetic trees (S. cerevisiae phylome made from 60 completely sequenced fungal specie), the largest tree having $297$ vertices, and diameters ranging from $2$ to $64$. The experiments used this set with values of $s$ from the set {{"{$2, 3, 4, 7, 8, 13, 16, 25, 32, 49, 64$"}}}. The cumulative execution time of such a set under each algorithm appears in Table **2**, Row **14**.
 
