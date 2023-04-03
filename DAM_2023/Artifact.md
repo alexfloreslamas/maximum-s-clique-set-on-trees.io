@@ -173,12 +173,6 @@ In the above example, we call the `main.py` file with the parameters of `DAM_202
 
 ---
 
-## License
-
-- Free
-
----
-
 
 [^1]: Schäfer, A.: Exact algorithms for *s*-club finding and related problems. Ph.D. thesis, Friedrich-Schiller-University Jena (2009).
 [^2]: Our dynamic programming algorithm that finds a maximum *s*-clique on trees.
