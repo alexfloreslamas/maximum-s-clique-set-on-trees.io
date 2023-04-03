@@ -20,6 +20,7 @@ Finding cliques in an undirected graph $G = (V_G, E_G)$ is a fundamental problem
   - [Artifact page](./DAM_2023/Artifact.md)
   - [Database page](./DAM_2023/Database.md)
   - [Reproducibility of results](./DAM_2023/Experiments.md)
+- [License](./license)
 - [Discrete Applied Mathematics](https://www.sciencedirect.com/journal/discrete-applied-mathematics). The Journal of Combinatorial Algorithms, Informatics and Computational Sciences.
 
 ---
