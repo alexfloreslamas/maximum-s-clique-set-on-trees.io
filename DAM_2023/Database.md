@@ -41,10 +41,10 @@ The data set consists of:
 
 | Case of study             | File                                          | Case of study             | File                        |
 | ------------------------- | --------------------------------------------- | ------------------------- | --------------------------- |
-| ${\cal T}_{22-16}$       | [T_22_16.zip](./DB/Prof_Brendan/T_22_16.zip)  | $T_L$                     | [T_L.zip](./DB/T_L.zip)     |
+| ${\cal T}_{22-16}$       | [T_22_16.zip](./DB/Prof_Brendan/T_22_16.zip)   | $T_L$                     | [T_L.zip](./DB/T_L.zip)     |
 | ${\cal T}_{Ph}$           | [T_Ph.zip](./DB/Phylogenetic_trees/T_Ph.zip)  | $T_B$                     | [T_B.zip](./DB/T_B.zip)     |
-| $T_D$                     | [T_D.zip](./DB/T_D.zip)                       | $T_{\eta\mathrm{e}{6}}$   | [T_eta.zip](./DB/T_eta.zip) |
-| *All files*               | [DB.zip](./DB/DB.zip)                         |                           |                             |
+| $T_D$                     | [T_D.zip](./DB/T_D.zip)                       | $T_{\eta\mathrm{e}{6}}$.  | [Part 1](./DB/T_eta/T_eta__part1.zip) |
+| $T_{\eta\mathrm{e}{6}}$.  | [Part 2](./DB/T_eta/T_eta__part2.zip)         |                           |                            |
 
 ---
 
